@@ -39,7 +39,7 @@ public class ProductDAO {
         ResultSet resultSet = statement.executeQuery(query);
         while (resultSet.next()) 
         {
-        	int id = resultSet.getInt("poduct_id");
+        	int id = resultSet.getInt("product_id");
         	String name = resultSet.getString("name");
         	double price = resultSet.getDouble("price");
         	String desc = resultSet.getString("description");
