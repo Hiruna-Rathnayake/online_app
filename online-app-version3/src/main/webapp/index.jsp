@@ -4,7 +4,7 @@
     <title>Product Management</title>
 </head>
 <body>
-    <h1>Welcome to Product Management</h1>
+    <h1>Hello! Welcome to Product Management</h1>
     <a href="product?action=list">View Products</a>
 </body>
 </html>
